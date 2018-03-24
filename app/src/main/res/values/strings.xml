@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UserPreferences</string>
+    <string-array name="Sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Profession">
+        <item>Business Person</item>
+        <item>Salareid Person</item>
+    </string-array>
+</resources>

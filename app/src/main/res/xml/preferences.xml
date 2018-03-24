@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="password"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Change Password"
+        android:hint="Want to change password?"/>
+    <ListPreference
+        android:title="Male / Female"
+        android:key="sex"
+        android:dialogTitle="Select your Sex"
+        android:entries="@array/Sex"
+        android:entryValues="@array/Sex"/>
+    <ListPreference
+        android:title="Occupation Type"
+        android:key="occupation"
+        android:dialogTitle="Select your Occupation Type"
+        android:entries="@array/Profession"
+        android:entryValues="@array/Profession"/>
+</PreferenceScreen>
